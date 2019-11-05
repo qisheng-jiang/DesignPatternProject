@@ -21,4 +21,8 @@ public class ProxyTest {
         payWithoutPermission.welcome();
         payWithoutPermission.pay();
     }
+
+    public static void main(String[] args) {
+        proxyTest();
+    }
 }

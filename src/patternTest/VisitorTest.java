@@ -21,4 +21,8 @@ public class VisitorTest {
             field.accept(fieldVisitor);
         }
     }
+
+    public static void main(String[] args) {
+        visitorTest();
+    }
 }

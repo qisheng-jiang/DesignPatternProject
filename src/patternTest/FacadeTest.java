@@ -15,4 +15,8 @@ public class FacadeTest {
         //all the complex sowing steps have been packaged in the seederFacade.
 
     }
+
+    public static void main(String[] args) {
+        FacadeTest();
+    }
 }

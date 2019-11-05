@@ -18,4 +18,8 @@ public class CommandTest {
         // and the Sell Command will fail because no crops can be sold right now.
 
     }
+
+    public static void main(String[] args) throws InterruptedException{
+        CommandTest();
+    }
 }

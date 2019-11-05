@@ -20,4 +20,8 @@ public class BridgeTest {
         cow.feed();
         duck.feed();
     }
+
+    public static void main(String[] args) {
+        bridgeTest();
+    }
 }

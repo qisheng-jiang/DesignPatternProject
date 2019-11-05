@@ -20,4 +20,8 @@ public class DAOTest {
         farmerDB.getFarmer("TEST CD");
         farmerDB.getFarmer("ABC");
     }
+
+    public static void main(String[] args) {
+        DAOTest();
+    }
 }

@@ -5,7 +5,7 @@ import memento.Originator;
 import transferObject.AnimalBO;
 import transferObject.AnimalVO;
 
-public class mementoAndTransferObjectTest {
+public class MementoAndTransferObjectTest {
     public static void mementoAndTransferObjectTest(){
         //test transfer object pattern and memento pattern
         //new memento
@@ -38,5 +38,9 @@ public class mementoAndTransferObjectTest {
         originator.getStateFromMemento(careTaker.get(0));
         animal = (AnimalVO) originator.getState();
         System.out.println("[animal:" + animal.getKind() + ", Total : " + animal.getTotal() + " ]");
+    }
+
+    public static void main(String[] args) {
+        mementoAndTransferObjectTest();
     }
 }

@@ -21,4 +21,8 @@ public class ObserverTest {
         }
         weatherToday.setWeather("rainy");
     }
+
+    public static void main(String[] args) {
+        observerTest();
+    }
 }

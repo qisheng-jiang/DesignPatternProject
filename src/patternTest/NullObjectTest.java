@@ -20,4 +20,8 @@ public class NullObjectTest {
         System.out.println("Search for employee 2:"+e2.getName());
 
     }
+
+    public static void main(String[] args) {
+        NullObjectTest();
+    }
 }

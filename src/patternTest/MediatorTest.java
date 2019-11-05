@@ -23,4 +23,8 @@ public class MediatorTest {
         System.out.println(" ");
         plantDepartment.sendMessage("We don't know either.");
     }
+
+    public static void main(String[] args) {
+        mediatorTest();
+    }
 }

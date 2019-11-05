@@ -25,4 +25,8 @@ public class ChainOfResponsibilityTest {
 
         directorHandler.process(leaveRequest);
     }
+
+    public static void main(String[] args) {
+        chainOfResponsibilityTest();
+    }
 }

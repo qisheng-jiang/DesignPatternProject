@@ -6,7 +6,7 @@ import interceptingFilter.Client;
 import interceptingFilter.DebugFilter;
 import interceptingFilter.FilterManager;
 
-public class frontControllerAndinterceptingFilterTest {
+public class FrontControllerAndinterceptingFilterTest {
     public static void frontControllerAndinterceptingFilterTest(){
 
         //Processing the request is scene switching, so frontcontroller is used as the target object to process the request
@@ -26,5 +26,9 @@ public class frontControllerAndinterceptingFilterTest {
         //Make staff page request (front controller mode)
         client.sendRequest("STAFF");
 
+    }
+
+    public static void main(String[] args) {
+        frontControllerAndinterceptingFilterTest();
     }
 }

@@ -2,6 +2,7 @@ package patternTest;
 
 import Adapter.CowAdapter;
 import Adapter.Stone;
+import Shop.AbstractFactory;
 import farm.strategy.Cow;
 import farm.strategy.Donkey;
 
@@ -21,5 +22,9 @@ public class AdapterTest {
         if(stone.move(cowAdapter)){
             System.out.println("Stone is moved by Cow");
         }
+    }
+
+    public static void main(String[] args) {
+        adaptertest();
     }
 }

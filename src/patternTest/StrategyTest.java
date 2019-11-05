@@ -13,4 +13,8 @@ public class StrategyTest {
         duck.speak(new CatSound());//choose the strategy you want:a duck speaks with the sound you want
 
     }
+
+    public static void main(String[] args) {
+        StrategyTest();
+    }
 }
