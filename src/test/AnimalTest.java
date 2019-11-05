@@ -84,6 +84,7 @@ public class AnimalTest {
         animalBusinessObject.getAnimal("Cow");
         System.out.println("[animal:" + animal.getKind() + ", Total : " + animal.getTotal() + " ]");
         //Return to the original state
+        System.out.println("Return to the original state:");
         originator.getStateFromMemento(careTaker.get(0));
         animal = (AnimalVO) originator.getState();
         System.out.println("[animal:" + animal.getKind() + ", Total : " + animal.getTotal() + " ]");

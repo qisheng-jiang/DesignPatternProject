@@ -14,7 +14,6 @@ public class FarmerDAOImpl1 implements FarmerDAO {
 
     private FarmerDAOImpl1(){
         farmersDB1 = new ArrayList<Farmer>();
-        farmersDB1.add(new Farmer("TEST CD"));
     }
 
     public static FarmerDAOImpl1 getInstance(){

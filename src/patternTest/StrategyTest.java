@@ -1,3 +1,5 @@
+package patternTest;
+
 import farm.strategy.CatSound;
 import farm.strategy.Duck;
 

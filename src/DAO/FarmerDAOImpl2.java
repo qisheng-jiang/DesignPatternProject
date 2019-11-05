@@ -13,7 +13,6 @@ public class FarmerDAOImpl2 implements FarmerDAO {
 
     private FarmerDAOImpl2(){
         farmersDB2 = new ArrayList<Farmer>();
-        farmersDB2.add(new Farmer("TEST CD2"));
     }
 
     public static FarmerDAOImpl2 getInstance(){

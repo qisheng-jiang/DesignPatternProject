@@ -1,3 +1,5 @@
+package patternTest;
+
 import Filter.Fields;
 import farm.Farmer;
 

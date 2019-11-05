@@ -1,3 +1,5 @@
+package patternTest;
+
 import memento.CareTaker;
 import memento.Originator;
 import transferObject.AnimalBO;

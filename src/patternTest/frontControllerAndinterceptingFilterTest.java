@@ -1,3 +1,5 @@
+package patternTest;
+
 import frontController.FrontController;
 import interceptingFilter.AuthenticationFilter;
 import interceptingFilter.Client;
